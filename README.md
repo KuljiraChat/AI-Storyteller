@@ -1,20 +1,20 @@
-# ✨ The Storyteller Bot - นักเล่านิทานมหัศจรรย์
+# The Storyteller Bot
 
 A magical AI storyteller that creates enchanting tales for all ages with beautiful visual effects and immersive storytelling experience.
 
-## 🌟 Features
+## Features
 
-### 📚 Story Categories
-- **ผจญภัย (Adventure)**: Exciting journeys and brave heroes
-- **แฟนตาซี (Fantasy)**: Magical worlds with dragons and wizards  
-- **ตลก (Comedy)**: Funny and humorous tales
-- **รัก-โรแมนติก (Romance)**: Beautiful love stories
-- **สัตว์ (Animals)**: Stories featuring animal characters
-- **ก่อนนอน (Bedtime)**: Calm and soothing stories
-- **สอนใจ (Moral)**: Tales with valuable life lessons
-- **ไทยโบราณ (Thai Folklore)**: Traditional Thai stories
+### Story Categories
+- **Adventure**: Exciting journeys and brave heroes
+- **Fantasy**: Magical worlds with dragons and wizards  
+- **Comedy**: Funny and humorous tales
+- **Romance**: Beautiful love stories
+- **Animals**: Stories featuring animal characters
+- **Bedtime**: Calm and soothing stories
+- **Moral**: Tales with valuable life lessons
+- **Thai Folklore**: Traditional Thai stories
 
-### ✨ Magical Interface
+### Magical Interface
 - **Starry Background**: Animated cosmos with twinkling stars
 - **Aurora Effects**: Beautiful northern lights animation
 - **Floating Particles**: Magical sparkles and floating emojis
@@ -22,14 +22,14 @@ A magical AI storyteller that creates enchanting tales for all ages with beautif
 - **Glass Morphism**: Modern translucent design elements
 - **Responsive Design**: Works perfectly on all devices
 
-### 🎭 Interactive Experience
+### Interactive Experience
 - **Story Cards**: Beautiful formatted story displays
 - **Quick Actions**: One-click story type selection  
 - **Story Memory**: Saves completed stories locally
 - **Progress Tracking**: Remembers user preferences
 - **Real-time Effects**: Dynamic visual feedback
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - n8n instance running
@@ -49,7 +49,7 @@ A magical AI storyteller that creates enchanting tales for all ages with beautif
 
 2. **Configure Frontend**
    - Open `index.html` in your browser
-   - Click ⚙️ settings button in the top right
+   - Click settings button in the top right
    - Enter your ngrok/server URL
    - Set webhook path (default: `/webhook/storyteller`)
    - Save configuration
@@ -59,7 +59,7 @@ A magical AI storyteller that creates enchanting tales for all ages with beautif
    - Ask for custom stories with specific themes
    - Interact with the storyteller for personalized tales
 
-## 🎨 Visual Features
+## Visual Features
 
 ### Magical Animations
 - **Twinkling Stars**: 200+ animated stars with random timing
@@ -75,7 +75,7 @@ A magical AI storyteller that creates enchanting tales for all ages with beautif
 - **Message Animations**: Smooth appearing messages
 - **Configuration Modal**: Beautiful settings overlay
 
-## 📖 Story Examples
+## Story Examples
 
 ### Adventure Story Request
 ```
@@ -95,7 +95,7 @@ Response: Magical story with princesses, dragons, and spells
 Response: Calm, soothing story perfect for sleep time
 ```
 
-## 🛠 Customization
+## Customization
 
 ### Visual Styling
 Edit `css/storyteller-styles.css` to customize:
@@ -118,7 +118,7 @@ Customize the storytelling AI by editing:
 - **Memory Settings**: Story continuation and context
 - **Response Format**: Story structure and formatting
 
-## 🎯 Story Features
+## Story Features
 
 ### Smart Story Detection
 - Automatically detects complete stories
@@ -132,7 +132,7 @@ Customize the storytelling AI by editing:
 - Remembers favorite story types
 - Creates personalized storytelling experiences
 
-## 📱 Mobile Experience
+## Mobile Experience
 
 Fully optimized for mobile devices with:
 - **Touch-friendly Controls**: Large buttons and inputs
@@ -141,7 +141,7 @@ Fully optimized for mobile devices with:
 - **Readable Text**: Appropriate font sizes
 - **Gesture Support**: Natural mobile interactions
 
-## 🔧 Configuration Options
+## Configuration Options
 
 ### Frontend Settings
 ```javascript
@@ -159,7 +159,7 @@ Fully optimized for mobile devices with:
 - **Story Library**: Personal collection of generated tales
 - **Preference Learning**: Adapts to user interests
 
-## 🌍 Deployment Options
+## Deployment Options
 
 ### GitHub Pages
 1. Push repository to GitHub
@@ -182,7 +182,7 @@ npx http-server -p 8080
 - Monitor API usage and costs
 - Set up proper error handling
 
-## 🎪 Advanced Features
+## Advanced Features
 
 ### Story Continuation
 - Continue previous stories seamlessly
@@ -202,14 +202,14 @@ npx http-server -p 8080
 - High contrast options
 - Audio-friendly content structure
 
-## 🔐 Privacy & Safety
+## Privacy & Safety
 
 - **Child-Safe Content**: All stories appropriate for all ages
 - **No Data Collection**: Stories stored locally only
 - **Secure Communication**: HTTPS encryption
 - **Content Filtering**: Positive, educational themes only
 
-## 🎭 Cultural Features
+## Cultural Features
 
 ### Thai Storytelling Tradition
 - **Traditional Openings**: "กาลครั้งหนึ่ง..." format
@@ -223,7 +223,7 @@ npx http-server -p 8080
 - **Modern Relevance**: Contemporary life applications
 - **Global Accessibility**: Easy to understand narratives
 
-## 🆘 Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 1. **Stories not generating**: Check n8n workflow status
@@ -237,7 +237,7 @@ npx http-server -p 8080
 - Ensure stable internet connection
 - Clear browser cache periodically
 
-## 📚 Documentation
+## Documentation
 
 ### API Integration
 The bot communicates with n8n via webhooks:
@@ -259,26 +259,10 @@ POST /webhook/storyteller
 }
 ```
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch
 3. Add magical improvements
 4. Test thoroughly across devices
 5. Submit a pull request with story examples
-
-## 📄 License
-
-MIT License - Share the magic freely!
-
-## ✨ Credits
-
-- **Fonts**: Google Fonts (Grandstander, Kanit)
-- **Icons**: Unicode emoji characters  
-- **Animations**: CSS3 keyframes and transitions
-- **AI**: Google Gemini for story generation
-- **Framework**: n8n for workflow automation
-
----
-
-*May your stories be filled with wonder and your imagination know no bounds! ✨🌟📚*
